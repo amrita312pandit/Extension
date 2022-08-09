@@ -1,0 +1,14 @@
+    {
+        "name" : " call",
+    "version" :"0.0.1",
+    "manifest_version":2,
+    "description": "call Extension for users",
+    "browser_action":{
+        "default_popup":"index.html",
+        "default_icon":"call.png"
+    },
+    "icons":{
+        "128":"call.png"
+    },
+    "permissions":["activeTab"]
+    }
